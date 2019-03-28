@@ -29154,7 +29154,7 @@ var Header = React.createClass({displayName: "Header",
             React.createElement("nav", {className: "navbar navbar-default"}, 
                 React.createElement("div", {className: "container-fluid"}, 
                     React.createElement("a", {href: "/", className: "navbar-brand"}, 
-                        React.createElement("img", {src: "images/pluralsight-logo.png"})
+                        React.createElement("img", {className: "img-fluid", src: "images/pluralsight-logo.png"})
                     ), 
                     React.createElement("ul", {className: "nav navbar-nav"}, 
                         React.createElement("li", null, React.createElement("a", {href: "/"}, "Home")), 
@@ -29184,7 +29184,7 @@ var Home = React.createClass({displayName: "Home",
     }
 });
 
-module.exports = Home;
+module.exports = Home; 
 
 },{"react":157}],161:[function(require,module,exports){
 $ = jQuery = require('jquery');
